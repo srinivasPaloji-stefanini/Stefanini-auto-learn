@@ -1,0 +1,71 @@
+{
+    "field_devices": {
+        "From_Name": "ACOSTA",        
+        "From_Company": "MOBILE DEVICE LOGISTICS",
+        "From_Address1": "4301 EMERSON STREET",
+        "From_Address2": "JACKSONVILLE",
+        "From_Phone": "904-647-1086",
+        "From_City": "JACKSONVILLE",
+        "From_State": "FL",
+        "From_Postal": "32216",
+        "To_Name": "ITAM",
+        "To_Company": "AUDITMACS",
+        "To_Address1": "4301 EMERSON STREET",
+        "To_Address2": "JACKSONVILLE",
+        "To_Phone": "904-647-1086",
+        "To_City": "JACKSONVILLE",
+        "To_State": "FL",
+        "To_Postal": "32216",
+        "Country": "US",
+        "Dept":"ITAM"
+    },
+    
+    "other_devices": {
+        "From_Name": "LEIGH GARRY",        
+        "From_Company": "Acosta Sales and Marketing",
+        "From_Address1": "3204 JUDITH DRIVE",
+        "From_Address2": "BELLMORE",
+        "From_Phone": "904-281-9800",
+        "From_City": "BELLMORE",
+        "From_State": "NY",
+        "From_Postal": "11710",
+        "To_Name": "GORAN LAZIC",
+        "To_Company": "Acosta Corporate #1100",
+        "To_Address1": "6600 CORPORATE CENTER PKWY",
+        "To_Address2": "JACKSONVILLE",
+        "To_Phone": "904-281-9800",
+        "To_City": "JACKSONVILLE",
+        "To_State": "FL",
+        "To_Postal": "32216",
+        "Country": "US",
+        "Dept":"BILL TECH SUPPORT 1140-721"
+    },
+    "serviceNow": {
+        "username": "svvc_ShippingLabelV222",
+        "password": "ShipingLabel2024!",
+        "base_url": "https://test.service-now.com/api/now/"
+    },
+    "assignment_group_info": {
+        "automation_group": "54ebcf961b40ca509ed70d88624bccc2", 
+        "askit_jackson_ville": "0fa399ffdbefbf009477341f9d933971", 
+        "tracking_sys_id": "4bda0bde1b00ca509ed70d8862cbec",
+        "manual_intervention_sys_id": "ecb3d9ffdbefbf0f09477341f9d9619f0",
+        "catalog_item": "d1d16cd91b86b450c21b2fc02a4bcbew"
+    },
+        "FedEx": {
+        "api_key": "l7c9a35ad7c58549959f5f034dc04r71c5",
+        "secret_key": "bcf90543e7444d5cb2991144002671cc",
+        "shipping_account": "745661073",
+        "base_url": "https://apis-sandbox.fedex.com"
+    },
+    "Sharepoint_Info": {
+        "site_url": "https://stefanini.sharepoint.com/sites/Fedex",
+        "user": "phishfinders@stefanini.com",
+        "password": "Thisisn0tme123",
+        "list": "Automation metrics"
+    },
+    "acosta_metrics_db": {
+        "server_name": "Automation\\SQLEXPRESS",
+        "database_name": "metrics"
+    }
+}
