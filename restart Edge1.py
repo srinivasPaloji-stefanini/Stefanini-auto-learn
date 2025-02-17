@@ -4,8 +4,14 @@ import subprocess
 import os
 import ctypes
 
+user = "phishfinders@stefanini.com"
+password = "Thisisn0tme123"
+
+
 # Assign custom AppUserModelID
 ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID("RestartEdge.02012025")
+
+
 
 # Configuration
 EDGE_PROCESS_NAME = "msedge.exe"
